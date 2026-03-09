@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Solution {
 
-    public static void task01(){
+    public static List<String> task01(){
 
         List<String> cityList = new ArrayList<>();
 
@@ -22,6 +22,13 @@ public class Solution {
             }while(!city.equals("vege"));
             System.out.println(cityList.size());
 
+        }
+        return cityList;
+    }
+
+    public static void printCity(List<String> cityList){
+        for(String city : cityList){
+            System.out.printf("%15s\n", city);
         }
     }
 }
