@@ -1,3 +1,12 @@
+/*
+* File: Main.java
+* Author: Csorba Péter
+* Copyright: 2026, Csorba Péter
+* Group: Szoft I/N
+* Date: 2026-03-09
+* Github: https://github.com/Gunkhu/
+* Licenc: MIT
+*/
 package com.example;
 import java.util.List;
 public class Main {
